@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://scenes/nave.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/meteor_spawner.tscn" type="PackedScene" id=2]
+
+[node name="main" type="Node"]
+
+[node name="nave" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 329.086, 419.945 )
+
+[node name="meteor_spawner" parent="." instance=ExtResource( 2 )]
+
+
